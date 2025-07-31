@@ -1,0 +1,179 @@
+
+
+/* トップ写真 */
+#mainphoto{
+  text-align: center;
+  
+}
+
+#myprofile {
+  
+  text-align: center;
+  letter-spacing: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+#myprofile h2 {
+  display: inline-block;
+  background-color: #625d5e;
+  color: white;
+  padding: 10px 10px 10px 20px;
+}
+
+#mainphoto img {
+  width: 1000px;
+  height: auto;
+}
+
+/* ABOUT */
+#about{
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #3b3536;
+}
+
+.myphoto img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 100%;
+  margin-right: 60px;
+}
+
+.detail{
+  margin-left: 20px;
+}
+
+#name{
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  text-decoration: underline;
+  color: #3b3536;
+}
+
+.detail ul {
+  margin-top: 60px
+}
+
+.detail ul li {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #3b3536;
+  
+}
+
+/* Works */
+#works{
+  display: flex;
+  justify-content: space-around;
+  margin: auto 150px;
+}
+
+.worksbox img {
+  max-width: 400px;
+  height: auto;
+}
+
+.worksbox p {
+  text-align: center;
+  color: #3b3536;
+}
+
+/* footer */
+footer {
+  text-align: right;
+  color: #3b3536;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px){
+  /* main */
+  #mainphoto {
+    position: relative;
+  }
+  #mainphoto img {
+    max-width: 500px;
+    height: auto;
+  }
+  #myprofile {
+  
+  text-align: center;
+  letter-spacing: 7px;
+  font-weight: bold;
+  font-size: 10px;
+  
+}
+
+#myprofile h2 {
+  display: inline-block;
+  background-color: #625d5e;
+  color: white;
+  padding: 10px 10px 10px 20px;
+}
+
+/* about */
+.myphoto{
+  text-align: center;
+  margin-left: 50px;
+}
+
+.myphoto img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 100%;
+}
+
+
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3b3536;
+}
+#about{
+  flex-direction: column;
+  margin-left: auto 15px;
+}
+
+#name{
+  font-size: 20px;
+  text-decoration: underline;
+  color: #3b3536;
+  text-align: center;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.detail ul li{
+  text-align: center;
+  list-style: none;
+  margin-top: 0;
+  margin-right: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.detail ul {
+  margin-top: 15px;
+}
+
+
+  /* works */
+  #works{
+    flex-direction: column;
+  }
+  .worksbox img{
+    text-align: center;
+    position: relative;
+    margin-right: 100px;
+  }
+  
+}
